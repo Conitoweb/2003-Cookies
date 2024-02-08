@@ -146,3 +146,16 @@ html{
 
   
  }
+
+ @media screen and (min-width:360px){
+    .navbar {
+        display: none;
+    }
+    .titulo-inicio{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+ }
