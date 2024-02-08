@@ -78,7 +78,7 @@ html{
         display: grid;
         grid-template-columns: repeat(1 , 400px);
         grid-template-rows: repeat(6, 400px);
-      gap: 40px;
+       gap: 40px;
     }
     .article-card-1{
         background-image: url(/img/Avena-Frutos-Secos.png);
@@ -121,6 +121,8 @@ html{
         background-repeat: no-repeat;
         background-size: contain;
         object-fit: cover;
+    } .section-card p{
+        text-align: center;
     }
     .footer{
       width: auto;
@@ -141,5 +143,6 @@ html{
         height: 50px;
        margin: 0 30px;
     }
+
   
  }
